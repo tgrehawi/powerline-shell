@@ -35,7 +35,7 @@ def _get_git_detached_branch():
     if p.returncode == 0:
         branch = u'{} {}'.format(RepoStats.symbols['detached'], detached_ref)
     else:
-        branch = 'Big Bang'
+        branch = 'big bang'
     return branch
 
 
